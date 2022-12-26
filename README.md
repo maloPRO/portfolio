@@ -2,7 +2,7 @@
 
 ### Description
 Repo containing my personal portfolio website.
-### Build with
+### Built with
 - ReactJS
 - Git 
 - npm
