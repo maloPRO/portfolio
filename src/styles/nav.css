@@ -6,7 +6,7 @@ nav {
   position: fixed;
   color: #fff;
   font-family: 'Roboto', sans-serif;
-  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.8);
 
 }
 nav div {
