@@ -5,8 +5,8 @@ nav {
   padding: 10px 100px;
   position: fixed;
   color: #fff;
-  background-color: #333;
   font-family: 'Roboto', sans-serif;
+  background-color: rgb(0,0,0);
 
 }
 nav div {

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import '../styles/nav.css';
 
 const Nav = () => {
-  const [navItems] = useState(['HOME', 'ABOUT', 'PROJECTS', 'CONTACT']);
+  const [navItems] = useState(['HOME', 'ABOUT', 'PROJECTS', 'BLOG', 'CONTACT']);
 
   const navList = navItems.map((navItem) => 
     <li>{navItem}</li>
