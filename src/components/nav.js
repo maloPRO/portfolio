@@ -8,10 +8,9 @@ const Nav = () => {
     <li>{navItem}</li>
   )
 
-
   return (
     <nav>
-      <div>Malova</div>
+      <div>GM</div>
       <ul className="navItems">{navList}</ul>
     </nav>
   )
