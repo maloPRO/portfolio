@@ -3,10 +3,11 @@
   padding: 4rem 0 0 0 ;
   display: grid;
   justify-items: center;
-}
-.projects h1 {
   color: #333;
-  padding-bottom: 10px;
+}
+.projects h3 {
+  padding-bottom: 1rem;
+  font-weight: 400;
 }
 .projects .container {
   width: 80%;
@@ -32,8 +33,17 @@
 .projectDesc {
   padding: .3rem 1rem;
   color: #333;
+  font-size: .8rem;
 }
 .myBrary {
-  background-image: url('../images/myBrary.png');
   background-size: cover;
+}
+.myProject div:first-child {
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  transition: .5s;
+}
+.myProject div:first-child:hover {
+  opacity: 0.6;
 }
