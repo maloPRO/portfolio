@@ -1,5 +1,6 @@
 .heroSection {
-  background:linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('../images/bg.jpg');
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
+    url("../images/bg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -22,7 +23,7 @@
   color: #fff;
   font-size: 2rem;
   width: 19ch;
-  animation: typing 2s steps(19), blink .5s step-end infinite alternate;
+  animation: typing 3s steps(19), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
   border-right: 3px solid;
@@ -31,12 +32,12 @@
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
 }
-    
+
 @keyframes blink {
   50% {
-    border-color: transparent
+    border-color: transparent;
   }
 }
