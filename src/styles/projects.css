@@ -12,11 +12,28 @@
   width: 80%;
   min-height: 100vh;
   box-shadow: 0px 0px 9px 2px #999;
-  padding: 15px;
+  padding: 2rem;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 1rem;
+  gap: 2rem;
 }
 .myProject {
-  background-color: red;
+  display: grid;
+  grid-template-rows: 2fr .1fr .1fr;
+  box-shadow: 0px 0px 5px 1px #555;
+  text-decoration: none;
+}
+.projectName {
+  padding:.3rem 1rem 0 1rem ;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #333;
+}
+.projectDesc {
+  padding: .3rem 1rem;
+  color: #333;
+}
+.myBrary {
+  background-image: url('../images/myBrary.png');
+  background-size: cover;
 }

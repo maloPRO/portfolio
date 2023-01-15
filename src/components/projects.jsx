@@ -1,12 +1,15 @@
 import React from 'react';
 import { useState } from 'react';
 import '../styles/projects.css';
+import myBraryIcon from '../images/myBrary.png';
 
 function Projects() {
   const [ myProjects ] = useState([
     {
-      name: "Project One",
-      Description: 'Lorem Ipsum',
+      name: "myBrary",
+      Description: 'myBrary is a simple mock library for storing data on ones book\'s',
+      imageSrc: {myBraryIcon},
+      
     },
     {
       name: "Project One",
@@ -31,10 +34,11 @@ function Projects() {
   ])
 
   const projectList = myProjects.map((project) => 
-    <div key={project.name} className='myProject'>
-      <p>{project.name}</p>
-      <p>{project.Description}</p>
-    </div>
+    <a href='https://malopro.github.io/Library/' target='_blank' key={project.name} className='myProject' rel="noreferrer">
+      <div className={project.name}></div>
+      <div className='projectName'>{project.name}</div>
+      <div className='projectDesc'>{project.Description}</div>
+    </a>
   )
 
   return ( 
