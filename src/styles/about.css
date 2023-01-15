@@ -6,6 +6,10 @@
   justify-items: center;
   background-color: aliceblue;
 }
+.about h1 {
+  color: #333;
+  padding-bottom: 10px;
+}
 .aboutCard {
   width: 80%;
   display: grid;

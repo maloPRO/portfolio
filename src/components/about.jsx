@@ -5,6 +5,7 @@ const About = () => {
 
   return (
     <div className="about">
+      <h1>About</h1>
       <div className="aboutCard">
         <div className="skills">
           <div className="profile">
@@ -49,7 +50,7 @@ const About = () => {
           </div>
         </div>
         <div className="details">
-          <h2>About Me</h2>
+          <h2>Bio</h2>
           <div className="aboutMe">
             <p>
               I am a full-stack web developer with a focus on the MERN stack (MongoDB, Express.js, React.js, and Node.js). 
