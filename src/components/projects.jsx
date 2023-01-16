@@ -3,6 +3,7 @@ import { useState } from 'react';
 import '../styles/projects.css';
 import myBraryIcon from '../images/myBrary.png';
 import cvIcon from '../images/cv.png';
+import myWeatherIcon from '../images/myWeather.png';
 
 function Projects() {
   const [ myProjects ] = useState([
@@ -19,8 +20,10 @@ function Projects() {
       link: 'https://malopro.github.io/project-cv/'
     },
     {
-      name: "Project One",
-      Description: 'Lorem Ipsum',
+      name: "myWeayher",
+      Description: 'myWeather is a project that demonstrates the use of API to fetch external datafrom other websites.',
+      imageSrc: myWeatherIcon,
+      link: 'https://malopro.github.io/WeatherApp/',
     },
     {
       name: "Project Two",
