@@ -26,7 +26,7 @@ const Contacts = () => {
             
           </form>
         </div>
-        <div></div>
+        <div className="socials"></div>
       </div>
     </FullpageSection>
   )
