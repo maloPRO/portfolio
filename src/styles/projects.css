@@ -1,15 +1,16 @@
 .projects {
   width: 100%;
   min-height: 100vh;
-  padding: .5rem 0 0 0 ;
+  padding: 1rem 0 0 0 ;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: #333;
+  background: url('../images/projects.jpg');
+  background-size: cover;
 }
-.projects h3 {
-  font-weight: 400;
-  padding-bottom: .5rem;
+.projects h1 {
+  padding-bottom: 1rem;
 }
 .projects .container {
   width: 80%;
@@ -19,6 +20,7 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
+  background-color: #ffffff;
 }
 .myProject {
   display: grid;
