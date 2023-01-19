@@ -22,7 +22,7 @@ function Projects() {
       link: 'https://malopro.github.io/project-cv/'
     },
     {
-      name: "myWeayher",
+      name: "myWeather",
       Description: 'myWeather is a project that demonstrates the use of API to fetch external datafrom other websites.',
       imageSrc: myWeatherIcon,
       link: 'https://malopro.github.io/WeatherApp/',
