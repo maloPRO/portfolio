@@ -9,16 +9,16 @@
   align-items: center;
   justify-content: center;
 }
-.heroSection div:first-child {
+.myName {
   font-weight: 900;
   color: #fff;
   font-size: 4rem;
   padding: 10px;
 }
-.heroSection div:first-child span {
+.myName span {
   color: #f7e888;
 }
-.heroSection div:last-child {
+.myTitle {
   color: #fff;
   font-size: 2rem;
   width: 19ch;
@@ -38,5 +38,14 @@
 @keyframes blink {
   50% {
     border-color: transparent;
+  }
+}
+
+@media (max-width: 500px) {
+  .myName {
+    font-size: 2.5rem;
+  }
+  .myTitle {
+    font-size: 1.3rem;
   }
 }

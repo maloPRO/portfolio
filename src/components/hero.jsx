@@ -6,8 +6,8 @@ const Hero = () => {
 
   return (
     <FullpageSection className="heroSection">
-      <div>Hello, I'm <span>Malova</span></div>
-      <div>Software Developer.</div>
+      <div className="myName">Hello, I'm <span>Malova</span></div>
+      <div className="myTitle">Software Developer.</div>
     </FullpageSection>
   )
 }
