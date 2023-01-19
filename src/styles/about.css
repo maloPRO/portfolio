@@ -109,5 +109,26 @@
   font-size: 1.1rem;
 }
 .aboutMe p {
-  padding-bottom: 15px;
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 500px) {
+  .profile {
+    display: none;
+  }
+  .mySkills {
+    display: none;
+  }
+  .aboutMe {
+    font-size: .9rem;
+  }
+  .aboutMe p {
+    padding-bottom: .5rem;
+    
+  }
+  .aboutCard {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 70vh;
+  }
 }
