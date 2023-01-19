@@ -51,3 +51,10 @@
 .myProject div:first-child:hover {
   opacity: 0.6;
 }
+
+@media (max-width: 500px) {
+  .projects .container {
+    grid-template-columns: 1fr;
+    overflow: scroll;
+  }
+}
