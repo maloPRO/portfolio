@@ -1,12 +1,12 @@
 import React from "react";
 import '../styles/contacts.css';
-
+import { FullpageSection } from "@ap.cx/react-fullpage";
 const Contacts = () => {
 
   return (
-    <div className="contacts">
+    <FullpageSection className="contacts" >
       <h1>Contacts</h1>
-      <div className="contactsCard">
+      <div className="contactsCard" data-aos='zoom-in'>
         <div className="cardLeft">
           <h2>Send Me a Message</h2>
           <form>
@@ -22,13 +22,13 @@ const Contacts = () => {
             <label>
               <textarea type='text' rows='8' name='message' placeholder='Message'></textarea>
             </label>
-            <button>Submit</button>
+            <button>Send Message</button>
             
           </form>
         </div>
         <div></div>
       </div>
-    </div>
+    </FullpageSection>
   )
 };
 

@@ -1,12 +1,13 @@
+import { FullpageSection } from "@ap.cx/react-fullpage";
 import React from "react";
 import '../styles/about.css';
 
 const About = () => {
 
   return (
-    <div className="about">
+    <FullpageSection className="about" >
       <h1>About</h1>
-      <div className="aboutCard">
+      <div className="aboutCard" data-aos='zoom-in'>
         <div className="skills">
           <div className="profile">
             <div className="profilePic"></div>
@@ -71,7 +72,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </FullpageSection>
   )
 }
 

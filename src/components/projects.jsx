@@ -5,6 +5,7 @@ import myBraryIcon from '../images/myBrary.png';
 import cvIcon from '../images/cv.png';
 import myWeatherIcon from '../images/myWeather.png';
 import koviIcon from '../images/kovi-designs.png';
+import { FullpageSection } from '@ap.cx/react-fullpage';
 
 function Projects() {
   const [ myProjects ] = useState([
@@ -51,11 +52,11 @@ function Projects() {
   )
 
   return ( 
-    <div className='projects'>
+    <FullpageSection className='projects'>
       <h1>Projects</h1>
       <h3>Here are some of the cool projects I've built</h3>
-      <div className='container'>{projectList}</div>
-    </div>
+      <div className='container' data-aos='zoom-in'>{projectList}</div>
+    </FullpageSection>
    );
 }
 

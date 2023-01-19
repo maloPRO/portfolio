@@ -1,13 +1,14 @@
 import React from "react";
 import '../styles/hero.css';
+import { FullpageSection } from "@ap.cx/react-fullpage";
 
 const Hero = () => {
 
   return (
-    <div className="heroSection">
+    <FullpageSection className="heroSection">
       <div>Hello, I'm <span>Malova</span></div>
       <div>Software Developer.</div>
-    </div>
+    </FullpageSection>
   )
 }
 
