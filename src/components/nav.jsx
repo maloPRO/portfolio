@@ -5,7 +5,7 @@ const Nav = () => {
   const [navItems] = useState(['HOME', 'ABOUT', 'PROJECTS', 'BLOG', 'CONTACT']);
 
   const navList = navItems.map((navItem) => 
-    <li>{navItem}</li>
+    <li className="nav-items">{navItem}</li>
   )
 
   return (

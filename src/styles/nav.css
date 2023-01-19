@@ -1,9 +1,9 @@
 nav {
+  position: fixed;
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 10px 100px;
-  position: fixed;
+  padding: 1rem ;
   color: #fff;
   font-family: 'Roboto', sans-serif;
   background: rgba(47, 43, 43, 0.31);
@@ -42,4 +42,18 @@ nav div {
 .navItems li:hover:after {
   width: 100%;
   background-color: #fff;  
+}
+
+@media (max-width:500px) {
+  nav {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+  }
+  nav div {
+    font-size: .8rem;
+  }
+  .nav-items {
+    font-size: .8rem;
+  }
 }
