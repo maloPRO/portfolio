@@ -4,6 +4,7 @@ import '../styles/projects.css';
 import myBraryIcon from '../images/myBrary.png';
 import cvIcon from '../images/cv.png';
 import myWeatherIcon from '../images/myWeather.png';
+import koviIcon from '../images/kovi-designs.png';
 
 function Projects() {
   const [ myProjects ] = useState([
@@ -26,8 +27,10 @@ function Projects() {
       link: 'https://malopro.github.io/WeatherApp/',
     },
     {
-      name: "Project Two",
-      Description: 'Lorem Ipsum',
+      name: "Kovi-Designs",
+      Description: 'A furniture e-commerce website',
+      imageSrc: koviIcon,
+      link: 'https://malopro.github.io/kovi-designs/',
     },
     {
       name: "Project Three",
