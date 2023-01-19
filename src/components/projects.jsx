@@ -53,8 +53,7 @@ function Projects() {
 
   return ( 
     <FullpageSection className='projects'>
-      <h1>Projects</h1>
-      <h3>Here are some of the cool projects I've built</h3>
+      <h1 data-aos='zoom-out'>Projects</h1>
       <div className='container' data-aos='fade-up'>{projectList}</div>
     </FullpageSection>
    );
