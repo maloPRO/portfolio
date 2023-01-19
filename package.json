@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://malopro.github.io/portfolio",
+  "homepage": "https://maloPRO.github.io/portfolio",
   "dependencies": {
     "@ap.cx/react-fullpage": "^0.3.0",
     "@testing-library/jest-dom": "^5.16.5",
@@ -18,11 +18,11 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
