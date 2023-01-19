@@ -7,7 +7,7 @@ const About = () => {
   return (
     <FullpageSection className="about" >
       <h1>About</h1>
-      <div className="aboutCard" data-aos='zoom-in'>
+      <div className="aboutCard" data-aos='fade-up'>
         <div className="skills">
           <div className="profile">
             <div className="profilePic"></div>

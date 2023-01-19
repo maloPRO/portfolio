@@ -6,7 +6,7 @@ const Contacts = () => {
   return (
     <FullpageSection className="contacts" >
       <h1>Contacts</h1>
-      <div className="contactsCard" data-aos='zoom-in'>
+      <div className="contactsCard" data-aos='fade-up'>
         <div className="cardLeft">
           <h2>Send Me a Message</h2>
           <form>
