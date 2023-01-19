@@ -1,0 +1,15 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4rem 0 0 0 ;
+  min-height: 100vh;
+}
+.contacts h1 {
+  color: #333;
+}
+.contactsCard {
+  width: 80%;
+  height: 80vh;
+  box-shadow: 0px 0px 9px 2px #999;
+}
