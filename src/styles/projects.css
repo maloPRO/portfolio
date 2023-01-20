@@ -52,7 +52,7 @@
   opacity: 0.6;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .projects .container {
     grid-template-columns: 1fr;
     overflow: scroll;
