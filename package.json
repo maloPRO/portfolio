@@ -1,8 +1,8 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://maloPRO.github.io/portfolio",
+  "private": false,
+  "homepage": "https://maloPRO.github.io/portfolio/",
   "dependencies": {
     "@ap.cx/react-fullpage": "^0.3.0",
     "@testing-library/jest-dom": "^5.16.5",
