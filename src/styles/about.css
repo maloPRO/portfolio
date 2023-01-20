@@ -119,12 +119,8 @@
   .details {
     display: none;
   }
-  .aboutMe {
+  .profileDetails {
     font-size: .9rem;
-  }
-  .aboutMe p {
-    padding-bottom: .5rem;
-    
   }
   .aboutCard {
     grid-template-columns: 1fr;
