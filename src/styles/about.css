@@ -113,6 +113,9 @@
 }
 
 @media (max-width: 600px) {
+  .profilePic {
+    display: none;
+  }
   .details {
     display: none;
   }
