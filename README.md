@@ -8,3 +8,5 @@ My Portfolio website showcasing my skills and professional information.
 - Git 
 - npm
 
+[Live Preview](https://malopro.github.io/portfolio/)
+
