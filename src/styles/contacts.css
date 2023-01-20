@@ -64,7 +64,7 @@ button {
   font-size: 1.2rem;
 }
 
-@media (max-width:500px) {
+@media (max-width: 600px) {
   .contactsCard {
     grid-template-columns: 1fr;
   }
