@@ -63,7 +63,15 @@ button {
   border: none;
   font-size: 1.2rem;
 }
-
+.socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icons {
+  width: 2rem;
+  margin: 5px;
+}
 @media (max-width: 600px) {
   .contactsCard {
     grid-template-columns: 1fr;

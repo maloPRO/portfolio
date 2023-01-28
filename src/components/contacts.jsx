@@ -1,6 +1,12 @@
 import React from "react";
 import '../styles/contacts.css';
 import { FullpageSection } from "@ap.cx/react-fullpage";
+import gitIcon from '../images/icons/github.png';
+import linkedIcon from '../images/icons/linkedin.png';
+import mailIcon from '../images/icons/mail.png';
+import twitterIcon from '../images/icons/twitter.png';
+import phoneIcon from '../images/icons/telephone.png';
+
 const Contacts = () => {
 
   return (
@@ -26,7 +32,14 @@ const Contacts = () => {
             
           </form>
         </div>
-        <div className="socials"></div>
+        <div className="socials">
+          <div className="phone">
+            <img className="icons" alt='' src={phoneIcon}></img>
+          </div>
+          <div className="mail">
+            <img className="icons" src={mailIcon} alt=''></img>
+          </div>
+        </div>
       </div>
     </FullpageSection>
   )
