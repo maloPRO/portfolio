@@ -10,11 +10,11 @@ const Nav = () =>  {
             id: uniqid(),
         },
         {
-            name: "Blog",
+            name: "Projects",
             id: uniqid(),
         },
         {
-            name: "Projects",
+            name: "Blog",
             id: uniqid(),
         },
         {
@@ -32,21 +32,21 @@ const Nav = () =>  {
 
     const navItems = items.map((navItem) =>
     <li key={navItem.id}>
-        <a href="#" className="block py-2 pl-3 pr-4 bg-blue-700 text-white rounded md:bg-transparent md:p-0" aria-current="page">{navItem.name}</a>
+        <a href="#" className=" block py-2 pl-3 pr-4 text-white md:text-xl md:text-white md:bg-transparent md:p-0" aria-current="page">{navItem.name}</a>
     </li>
     )
 
     return (
-        <div>
+        <div className="relative">
             <nav>
-                <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto p-4">
+                <div className="max-w-screen-2xl flex flex-wrap items-center justify-between mx-auto px-3 md:px-28 py-2">
                     <a href="#" className="flex items-center">
-                        <span className="self-center text-4xl text-white font-bold whitespace-nowrap ">Malova</span>
+                        <span className="self-center text-3xl text-white font-bold whitespace-nowrap ">gm</span>
                     </a>
                     <button 
                         data-collapse-toggle="navbar-solid-bg" 
                         type="button" 
-                        className="inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" 
+                        className="z-50 inline-flex items-center p-2 ml-3 text-sm text-white rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" 
                         aria-controls="navbar-solid-bg" 
                         aria-expanded="false"
                         onClick={toggleMenu}
@@ -67,10 +67,10 @@ const Nav = () =>  {
                         </svg>
                     </button>
                     <div 
-                        className={`${isMenuVisible ? "block" : "hidden"} w-full md:block md:w-auto`} 
+                        className={`${isMenuVisible ? "fixed" : "hidden"} top-10 right-0 w-full md:block md:w-auto`} 
                         id="navbar-solid-bg"
                     >
-                        <ul className="flex flex-col font-medium mt-4 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">{navItems}</ul>
+                        <ul className="flex flex-col font-medium mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">{navItems}</ul>
                     </div>
                 </div>
             </nav>

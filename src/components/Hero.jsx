@@ -5,8 +5,12 @@ import Nav from "./nav";
 const Hero = () => {
 
     return (
-        <div className="w-screen h-screen bg-[url('./images/header.jpg')] bg-cover bg-center">
-            <Nav/>
+        <div className="w-fill">   
+            <div className="flex flex-col w-fill text-gray-700 py-40">
+                <p className="text-xl font-bold">Hi!</p>
+                <p className="text-2xl">I'm Malova</p>
+                <p className="text-m">SOFTWARE DEVELOPER</p>
+            </div>
         </div>
     )
 }
