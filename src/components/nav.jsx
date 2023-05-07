@@ -32,7 +32,7 @@ const Nav = () =>  {
 
     const navItems = items.map((navItem) =>
     <li key={navItem.id}>
-        <a href="#" className=" block py-2 pl-3 pr-4 text-white md:text-xl md:text-white md:bg-transparent md:p-0" aria-current="page">{navItem.name}</a>
+        <a href="#" className=" block py-2 pl-3 pr-4 text-blue-400 md:text-xl md:text-white md:bg-transparent md:p-0" aria-current="page">{navItem.name}</a>
     </li>
     )
 
@@ -67,7 +67,7 @@ const Nav = () =>  {
                         </svg>
                     </button>
                     <div 
-                        className={`${isMenuVisible ? "fixed" : "hidden"} top-10 right-0 w-full md:block md:w-auto`} 
+                        className={`${isMenuVisible ? "fixed" : "hidden"} top-20 right-0 w-full md:block md:w-auto bg-white md:bg-transparent`} 
                         id="navbar-solid-bg"
                     >
                         <ul className="flex flex-col font-medium mt-4 rounded-lg  md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-transparent">{navItems}</ul>
